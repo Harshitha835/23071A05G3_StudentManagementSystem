@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.App nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 10px;
+  background: #007bff;
+}
+
+.App nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
